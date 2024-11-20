@@ -52,4 +52,6 @@ void loop() {
   digitalWrite(LED_GREEN_PIN, LOW);
   digitalWrite(LED_RED_PIN, HIGH);
 
+  mfrc522.PICC_HaltA();
+
 }
